@@ -6,7 +6,7 @@
       "age": 20,
       "position": "Striker",
       "goals": 10,
-      "assists": "3",
+      "assists": "4",
       "teamId": 1
     },
     {
@@ -35,7 +35,7 @@
       "age": 21,
       "position": "Center Forward",
       "goals": 15,
-      "assists": "5",
+      "assists": "6",
       "teamId": 2
     },
     {
