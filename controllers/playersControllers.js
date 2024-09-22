@@ -12,6 +12,33 @@ export const getPlayersData = async (req, res) => {
     }
 };
 
+export const getPlayerById = async (req, res) => {
+    try {
+        const filePath = path.resolve('data', 'playersData.json');
+        const data = await fs.readFile(filePath, 'utf-8');
+        const playersData = JSON.parse(data);
+
+        const playerId = parseInt(req.params.id, 10);
+        let player = null;
+
+        for (const teamId in playersData) {
+            const foundPlayer = playersData[teamId].find(p => p.id === playerId);
+            if (foundPlayer) {
+                player = foundPlayer;
+                break;
+            }
+        }
+
+        if (!player) {
+            return res.status(404).json({ message: 'Player not found' });
+        }
+
+        res.status(200).json(player);
+    } catch (error) {
+        res.status(500).json({ message: 'Error fetching player data', error });
+    }
+};
+
 export const updatePlayerMetrics = async (req, res) => {
     try {
         const filePath = path.resolve('data', 'playersData.json');
