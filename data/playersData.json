@@ -2,50 +2,276 @@
   "1": [
     {
       "id": 1,
-      "name": "Player 1",
+      "name": "Jake Sullivan",
       "age": 20,
       "position": "Striker",
       "goals": 10,
-      "assists": "4",
+      "assists": 4,
       "teamId": 1
     },
     {
       "id": 2,
-      "name": "Player 2",
+      "name": "Lucas Hernandez",
       "age": 22,
       "position": "Left Mid",
-      "goals": 7,
-      "assists": 8,
+      "goals": 9,
+      "assists": 4,
       "teamId": 1
     },
     {
       "id": 3,
-      "name": "Player 3",
+      "name": "Ethan Murphy",
       "age": 19,
       "position": "Right Wing",
       "goals": 9,
       "assists": 6,
       "teamId": 1
+    },
+    {
+      "id": 4,
+      "name": "Noah Thompson",
+      "age": 21,
+      "position": "Center Forward",
+      "goals": 12,
+      "assists": 5,
+      "teamId": 1
+    },
+    {
+      "id": 5,
+      "name": "Mason Clark",
+      "age": 23,
+      "position": "Striker",
+      "goals": 11,
+      "assists": 3,
+      "teamId": 1
+    },
+    {
+      "id": 6,
+      "name": "Liam Smith",
+      "age": 20,
+      "position": "Left Wing",
+      "goals": 8,
+      "assists": 7,
+      "teamId": 1
+    },
+    {
+      "id": 7,
+      "name": "Aiden Johnson",
+      "age": 22,
+      "position": "Right Mid",
+      "goals": 10,
+      "assists": 4,
+      "teamId": 1
+    },
+    {
+      "id": 8,
+      "name": "Jackson Lee",
+      "age": 24,
+      "position": "Striker",
+      "goals": 13,
+      "assists": 2,
+      "teamId": 1
+    },
+    {
+      "id": 9,
+      "name": "Oliver Brown",
+      "age": 19,
+      "position": "Center Forward",
+      "goals": 7,
+      "assists": 5,
+      "teamId": 1
+    },
+    {
+      "id": 10,
+      "name": "Gabriel Lewis",
+      "age": 21,
+      "position": "Left Wing",
+      "goals": 6,
+      "assists": 8,
+      "teamId": 1
+    },
+    {
+      "id": 11,
+      "name": "Sebastian Adams",
+      "age": 20,
+      "position": "Right Wing",
+      "goals": 9,
+      "assists": 3,
+      "teamId": 1
+    },
+    {
+      "id": 12,
+      "name": "Henry Walker",
+      "age": 23,
+      "position": "Striker",
+      "goals": 12,
+      "assists": 6,
+      "teamId": 1
+    },
+    {
+      "id": 13,
+      "name": "James Harris",
+      "age": 22,
+      "position": "Left Mid",
+      "goals": 8,
+      "assists": 5,
+      "teamId": 1
+    },
+    {
+      "id": 14,
+      "name": "Daniel Martinez",
+      "age": 21,
+      "position": "Right Wing",
+      "goals": 7,
+      "assists": 7,
+      "teamId": 1
+    },
+    {
+      "id": 15,
+      "name": "Matthew Anderson",
+      "age": 20,
+      "position": "Center Forward",
+      "goals": 11,
+      "assists": 4,
+      "teamId": 1
     }
   ],
   "2": [
     {
-      "id": 4,
-      "name": "Player 4",
-      "age": 21,
-      "position": "Center Forward",
-      "goals": 15,
-      "assists": "6",
-      "teamId": 2
+        "id": 1,
+        "name": "Alex Johnson",
+        "age": 20,
+        "position": "Striker",
+        "goals": 10,
+        "assists": 4,
+        "teamId": 2
     },
     {
-      "id": 5,
-      "name": "Player 5",
-      "age": 23,
-      "position": "Right Mid",
-      "goals": 5,
-      "assists": 10,
-      "teamId": 2
+        "id": 2,
+        "name": "Ryan Smith",
+        "age": 22,
+        "position": "Left Mid",
+        "goals": 9,
+        "assists": 4,
+        "teamId": 2
+    },
+    {
+        "id": 3,
+        "name": "Ethan Williams",
+        "age": 19,
+        "position": "Right Wing",
+        "goals": 9,
+        "assists": 6,
+        "teamId": 2
+    },
+    {
+        "id": 4,
+        "name": "Jordan Brown",
+        "age": 21,
+        "position": "Striker",
+        "goals": 11,
+        "assists": 5,
+        "teamId": 2
+    },
+    {
+        "id": 5,
+        "name": "Taylor Davis",
+        "age": 23,
+        "position": "Left Mid",
+        "goals": 8,
+        "assists": 7,
+        "teamId": 2
+    },
+    {
+        "id": 6,
+        "name": "Cameron Wilson",
+        "age": 20,
+        "position": "Right Wing",
+        "goals": 7,
+        "assists": 6,
+        "teamId": 2
+    },
+    {
+        "id": 7,
+        "name": "Casey Lee",
+        "age": 22,
+        "position": "Striker",
+        "goals": 12,
+        "assists": 3,
+        "teamId": 2
+    },
+    {
+        "id": 8,
+        "name": "Jamie Clark",
+        "age": 19,
+        "position": "Left Mid",
+        "goals": 10,
+        "assists": 5,
+        "teamId": 2
+    },
+    {
+        "id": 9,
+        "name": "Morgan Martinez",
+        "age": 21,
+        "position": "Right Wing",
+        "goals": 8,
+        "assists": 8,
+        "teamId": 2
+    },
+    {
+        "id": 10,
+        "name": "Riley Anderson",
+        "age": 20,
+        "position": "Striker",
+        "goals": 13,
+        "assists": 4,
+        "teamId": 2
+    },
+    {
+        "id": 11,
+        "name": "Sydney Thomas",
+        "age": 24,
+        "position": "Left Mid",
+        "goals": 9,
+        "assists": 6,
+        "teamId": 2
+    },
+    {
+        "id": 12,
+        "name": "Alex Taylor",
+        "age": 22,
+        "position": "Right Wing",
+        "goals": 6,
+        "assists": 7,
+        "teamId": 2
+    },
+    {
+        "id": 13,
+        "name": "Blake Moore",
+        "age": 19,
+        "position": "Striker",
+        "goals": 11,
+        "assists": 5,
+        "teamId": 2
+    },
+    {
+        "id": 14,
+        "name": "Drew Lee",
+        "age": 23,
+        "position": "Left Mid",
+        "goals": 10,
+        "assists": 4,
+        "teamId": 2
+    },
+    {
+        "id": 15,
+        "name": "Jordan Lewis",
+        "age": 21,
+        "position": "Right Wing",
+        "goals": 7,
+        "assists": 9,
+        "teamId": 2
     }
-  ]
+]
+
 }
