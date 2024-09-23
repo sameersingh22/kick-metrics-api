@@ -18,7 +18,7 @@ export const getPlayerById = async (req, res) => {
         const data = await fs.readFile(filePath, 'utf-8');
         const playersData = JSON.parse(data);
 
-        const playerId = parseInt(req.params.id, 10);
+        const playerId = req.params.id;
         let player = null;
 
         for (const teamId in playersData) {
@@ -45,7 +45,7 @@ export const updatePlayerMetrics = async (req, res) => {
         const data = await fs.readFile(filePath, 'utf-8');
         const playersData = JSON.parse(data);
 
-        const playerId = parseInt(req.params.id, 10);
+        const playerId = req.params.id;
         const { goals, assists } = req.body;
 
         if (!playersData) {
