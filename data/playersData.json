@@ -6,7 +6,7 @@
       "age": 20,
       "position": "Striker",
       "goals": 10,
-      "assists": 4,
+      "assists": "5",
       "teamId": 1
     },
     {
@@ -14,8 +14,8 @@
       "name": "Lucas Hernandez",
       "age": 22,
       "position": "Left Mid",
-      "goals": 9,
-      "assists": 4,
+      "goals": "15",
+      "assists": "7",
       "teamId": 1
     },
     {
@@ -170,7 +170,7 @@
       "age": 21,
       "position": "Striker",
       "goals": 11,
-      "assists": 5,
+      "assists": "7",
       "teamId": 2
     },
     {
