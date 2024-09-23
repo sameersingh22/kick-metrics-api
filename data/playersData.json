@@ -131,7 +131,7 @@
       "name": "Matthew Anderson",
       "age": 20,
       "position": "Center Forward",
-      "goals": 11,
+      "goals": "15",
       "assists": 4,
       "teamId": 1
     }
@@ -142,8 +142,8 @@
       "name": "Alex Johnson",
       "age": 20,
       "position": "Striker",
-      "goals": 10,
-      "assists": 4,
+      "goals": "12",
+      "assists": "5",
       "teamId": 2
     },
     {
@@ -160,7 +160,7 @@
       "name": "Ethan Williams",
       "age": 19,
       "position": "Right Wing",
-      "goals": 9,
+      "goals": "10",
       "assists": 6,
       "teamId": 2
     },
