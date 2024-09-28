@@ -2,7 +2,8 @@
   "name": "kickmetricsapi",
   "type": "module",
   "version": "1.0.0",
-  "description": "A backend service for the Youth Soccer Development Tracker web application. This API provides endpoints for managing player performance metrics, fetching training videos, and handling other soccer-related data. Built with Express and Knex, it supports CRUD operations, API integrations, and data management.",
+  "description": "KickMetrics is a backend service for the soccer metrics tracker web application. This API provides endpoints for managing player performance metrics, fetching player data, and retrieving team information. Built with Express, it supports Read and Update operations for player metrics and allows seamless data management."
+",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
