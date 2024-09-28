@@ -2,8 +2,7 @@
   "name": "kickmetricsapi",
   "type": "module",
   "version": "1.0.0",
-  "description": "KickMetrics is a backend service for the soccer metrics tracker web application. This API provides endpoints for managing player performance metrics, fetching player data, and retrieving team information. Built with Express, it supports Read and Update operations for player metrics and allows seamless data management."
-",
+  "description": "KickMetrics is a backend service for the soccer metrics tracker web application. This API provides endpoints for managing player performance metrics, fetching player data, and retrieving team information. Built with Express, it supports Read and Update operations for player metrics and allows seamless data management.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
