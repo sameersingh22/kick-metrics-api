@@ -9,21 +9,19 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     res.send(`
-        Welcome to the Kick Metrics API! 
-
-        Player Endpoints:
-          GET /api/players 
-            Returns a list of all players.
-          
-          GET /api/players/:id 
-            Returns detailed information for a specific player identified by id.
-          
-          PUT /api/update/:id 
-            Updates the goals and assists metrics for a player identified by id.
-
-        Team Endpoints:
-          GET /api/teams/:id 
-            Returns the team information and its associated players for the specified id.
+        <h1>Welcome to the Kick Metrics API!</h1>
+        
+        <h2>Player Endpoints:</h2>
+        <ul>
+            <li><strong>GET /api/players</strong> - Returns a list of all players.</li>
+            <li><strong>GET /api/players/:id</strong> - Returns detailed information for a specific player identified by id.</li>
+            <li><strong>PUT /api/update/:id</strong> - Updates the goals and assists metrics for a player identified by id.</li>
+        </ul>
+        
+        <h2>Team Endpoints:</h2>
+        <ul>
+            <li><strong>GET /api/teams/:id</strong> - Returns the team information and its associated players for the specified id.</li>
+        </ul>
     `);
 }); 
 
