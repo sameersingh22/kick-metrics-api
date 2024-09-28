@@ -10,6 +10,8 @@ app.use(express.json());
 app.get('/', (req, res) => {
     res.send(`
         <h1>Welcome to the Kick Metrics API!</h1>
+
+        <p>You can interact with the API directly using https://kick-metrics-api-a69304343da9.herokuapp.com/&lt;endpoint&gt;</p>
         
         <h2>Player Endpoints:</h2>
         <ul>
