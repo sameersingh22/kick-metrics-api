@@ -6,7 +6,8 @@
 
 KickMetricsAPI is a backend service for the soccer metrics tracker web application KickMetrics. This API provides endpoints for managing player performance metrics, fetching player data, and retrieving team information. Built with Express, it supports Read and Update operations for player metrics and allows seamless data management.
 
-<a href="https://github.com/sameersingh22/kick-metrics">Check out the front end repo</a>
+
+<a href="https://github.com/sameersingh22/kick-metrics">Check out the front end repo</a> 
 
 
 ## Table of Contents
